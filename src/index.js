@@ -7,5 +7,5 @@ import './index.css';
 import ThemeSwitcher from './ThemeSwitcher';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<ThemeSwitcher />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();
